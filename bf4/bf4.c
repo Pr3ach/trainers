@@ -8,9 +8,10 @@
 
 /*
  * Battlefield 4 single player original version (origin) x64 v1.2.0.2 trainer
- * Pr3acher @__Pr3__ 
+ * bf4.exe sha-1: be7f522761578e5da65f618cd2a6aff3fb571ec7	
+ * Note: You need to adjust the 'make.bat' file; more precisely, change gcc_x64 to your x64 version of gcc, same for windres
  *
- * Note: You need to adjust the 'make.bat' file; more precisely, change gcc_x64 to your x64 verson of gcc, same for windres
+ * Pr3acher @__Pr3__ 
  *
  */
 

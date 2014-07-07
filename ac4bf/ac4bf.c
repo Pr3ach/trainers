@@ -8,6 +8,8 @@
 
 /*
  * assassins's creed 4: black flag SP (reloaded version) helper; prevents items quantity from decreasing
+ * ac4bfsp.exe sha-1: 4aec3aa2d8d83408fd24b3074d062361eb82ee4f	
+ *
  * Pr3acher @__Pr3__ 
  *
 */

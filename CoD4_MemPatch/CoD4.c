@@ -5,14 +5,12 @@
 #include "libColor/color.h"
 
 /*
-
-Memory patcher CoD4 Single Player
-
-Hack all weapons ammo + frag nade + flash nade + m203
-
-Pr3acher @__Pr3__ 
-
-*/
+ * Call of Duty 4: Modern Warfare single player trainer
+ * iw3sp.exe sha-1: 6a670b5e4253abb72bdcb30b84b336ea6a99fd1b	
+ *
+ * Pr3acher @__Pr3__ 
+ *
+ */
 
 int main()
 {
