@@ -18,8 +18,13 @@ int main(int argc, const char *argv[])
 	int16_t *setQuantityAddr = 0x01081891;
 	uint8_t setQuantityBytes[3] = {0x90,0x90};
 
+	// cargo ammount
 	int16_t *cargo_addr = 0x0107577e;
 	uint8_t cargo_bytes[3] = {0x90,0x90};
+
+	// kenway' life (hurt by enemy only)
+	int *kenway_life_addr = 0x01275767;
+	uint8_t kenway_life_bytes = {0x90,0x90,0x90,0x90};
 
 	system("title AC4BF SP helper");
 
@@ -33,6 +38,12 @@ int main(int argc, const char *argv[])
 
 	printf("[+] Cargo will now be constant\n");
 
+	if(!patch_open("ac4bfsp.exe",kenway_life_addr,kenway_life_bytes,4))
+		err("kenway' life");
+
+	printf("[+] Kenway is now invincible\n");
+
+	printf("[*] All done, enjoy!\n");
 	getch();
 
 	return 0;
