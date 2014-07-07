@@ -7,7 +7,7 @@
 #include "patchlib/patchlib.h"
 
 /*
- * assassins's creed 4: black flag SP helper; prevents items quantity from decreasing
+ * assassins's creed 4: black flag SP (reloaded version) helper; prevents items quantity from decreasing
  * Pr3acher @__Pr3__ 
  *
 */
