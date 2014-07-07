@@ -10,6 +10,8 @@
  * Battlefield 4 single player original version (origin) x64 v1.2.0.2 trainer
  * Pr3acher @__Pr3__ 
  *
+ * Note: You need to adjust the 'make.bat' file; more precisely, change gcc_x64 to your x64 verson of gcc, same for windres
+ *
  */
 
 int main(int argc, const char *argv[])
