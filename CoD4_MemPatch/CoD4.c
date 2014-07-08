@@ -24,8 +24,8 @@ int main()
   int writtenBytes=0;
   char r=0;
   BOOL isAlreadyPatched=TRUE;
-  char patch[2]={0x31,0xD2};   //mov edx,esi ;esi=1
-  char restore[2]={0x8B,0xD6}; //xor edx,edx
+  char patch[3]={0x31,0xD2};   //mov edx,esi ;esi=1
+  char restore[3]={0x8B,0xD6}; //xor edx,edx
   MEMORY_BASIC_INFORMATION mbi={0};
   PDWORD oldProtect=NULL;
   PDWORD oldProtect1=NULL; 

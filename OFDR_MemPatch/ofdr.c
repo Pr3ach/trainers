@@ -21,14 +21,14 @@ int main()
   WORD i=0;
   HANDLE hOfdr=NULL;
   const int addr=0xF55F8F;
-  unsigned char buff[4]={0};
+  unsigned char buff[5]={0};
   int bytesRead=0;
   int writtenBytes=0;
   char c=0;
   char r=0;
   BOOL isAlreadyPatched=TRUE;
-  char patch[4]={0x90,0x90,0x90,0x90};
-  char restore[4]={0x29,0x54,0x81,0x40};
+  char patch[5]={0x90,0x90,0x90,0x90};
+  char restore[5]={0x29,0x54,0x81,0x40};
   MEMORY_BASIC_INFORMATION mbi={0};
   PDWORD oldProtect=NULL;
   PDWORD oldProtect1=NULL;
