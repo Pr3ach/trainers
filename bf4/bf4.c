@@ -29,7 +29,7 @@ int main(int argc, const char *argv[])
 	if(!patch_open("bf4.exe",ammoAddr,ammoBytes,6))
 		err("ammo");
 		
-	printf("[+] You now have unlimmited ammo\n");
+	printf("[+] You now have unlimited ammo\n");
 
 	if(!patch_open("bf4.exe",healthAddr,ammoBytes,5)) // re-using patch for ammo since we simply nop here too ...
 		err("health");
